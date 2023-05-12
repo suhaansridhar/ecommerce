@@ -1,3 +1,40 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar--container{
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(15, 15, 116);
+    color: white;
+}
+
+.navbar--container--input--0{
+    display: flex;
+    flex-grow: 11;
+    justify-content: space-between;
+}
+
+.navbar--container--input--0 input{
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+button{
+    flex-grow: 1;
+}
+
+.navbar--container--search--button{
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+select{
+    background-color: rgba(236, 228, 6, 0.93);
+
+}
