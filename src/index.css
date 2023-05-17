@@ -41,5 +41,16 @@ button{
 
 select{
     background-color: rgba(236, 228, 6, 0.93);
+}
 
+.cards--generator--container{
+    display: flex;
+    height: auto;
+    width: 100vh;
+}
+
+.cards--generator--container--content{
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin: 1rem;
 }
