@@ -1,4 +1,3 @@
-import './App.css';
 import CardsGenerator from './Components/CardsGenerator';
 import NavBar from './Components/NavBar';
 

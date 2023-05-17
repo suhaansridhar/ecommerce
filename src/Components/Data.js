@@ -1,7 +1,9 @@
+import {white_iPhone} from '../../white_iPhone.png';
+
 export default [
     {
         id: 1,
-        img: "adfas",
+        img: {white_iPhone},
         name: 'iPhone',
         price: "999",
         color: "white"

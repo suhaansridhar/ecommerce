@@ -46,11 +46,16 @@ select{
 .cards--generator--container{
     display: flex;
     height: auto;
-    width: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .cards--generator--container--content{
     border: 0.1rem solid black;
     padding: 1rem;
     margin: 1rem;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+
 }
