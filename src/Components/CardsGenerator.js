@@ -2,7 +2,6 @@ import React from 'react';
 import Data from './Data';
 
 const CardsGenerator = () => {
-    const Data = Data;
   return (
     <div className='cards--generator--container'>
         {Data.map((item) => (
