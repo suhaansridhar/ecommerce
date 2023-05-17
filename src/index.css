@@ -32,11 +32,18 @@ button:hover{
 
 button{
     flex-grow: 1;
+    background-color: inherit;
+    color: white;
+    border: none;
 }
 
 .navbar--container--search--button{
-    border: 1px solid white;
+    border: none;
     padding: 1rem;
+}
+
+.navbar--container--search--button:hover{
+    color: orange;
 }
 
 select{
@@ -57,5 +64,14 @@ select{
     border-radius: 10px;
     width: auto;
     text-align: center;
+}
 
+.cards--generator--container--add--to--cart--button{
+    color: black;
+    border: 0.1rem solid black;
+    padding: 0.15rem;
+    border-radius: 10px;
+    margin: 1%;
+    font-size: 1rem;
+    text-transform: uppercase;
 }

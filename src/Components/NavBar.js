@@ -13,7 +13,6 @@ const NavBar = () => {
   return (
     <div className='navbar--container'>
       <button className='navbar--container--button--0'>ECOMMERCE</button>
-      <button className='navbar--container--button--1'></button>
       <div className='navbar--container--input--0'>
         <select name="Appliances">
           <option value="Mobile">Mobile</option>

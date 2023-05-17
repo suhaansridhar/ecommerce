@@ -9,6 +9,7 @@ const CardsGenerator = () => {
                 <div className="image">{item.img}</div>
                 <div className="name">{item.name}</div>
                 <div className="color">{item.color}</div>
+                <button className='cards--generator--container--add--to--cart--button'>Add to Cart</button>
             </div>
         ))}
     </div>
