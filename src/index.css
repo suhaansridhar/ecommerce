@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+select{
+    padding: 1rem;
+    font-size: medium;
+}
+
 button:hover{
     cursor: pointer;
     color: orange;
@@ -28,6 +33,7 @@ button:hover{
     padding: 10px;
     text-transform: capitalize;
     outline: none;
+    font-size: large;
 }
 
 button{
@@ -74,4 +80,18 @@ select{
     margin: 1%;
     font-size: 1rem;
     text-transform: uppercase;
+}
+
+.footer--container{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+    background-color: rgb(15, 15, 116);
+    color: white;
+}
+
+.footer--container p{
+    margin-left: 25px;
 }
